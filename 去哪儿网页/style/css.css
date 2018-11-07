@@ -1,0 +1,265 @@
+.header{
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-right: -8px;
+    height: 70px;
+    background-color:#E5F5F4;
+    display: flex;
+    align-items:center;
+}
+
+.header .header-img{
+    margin-left: 150px;
+    display: inline-block;
+}
+
+form{
+    display: flex;
+    width: 544px;
+    
+}
+
+.right1{
+    font-size: 12px;
+    color: grey;
+    margin-left: 10px;
+    position: relative;
+    left: 354px;
+    bottom: -3px;
+}
+
+.right2{
+   font-size: 12px;
+   margin-bottom: -40px;
+}
+
+a{
+    color: coral;
+    text-decoration:none;
+}
+
+ .header-input{
+    width: 300px;
+    height: 22px;
+    border: 3px solid #2EAB8E;
+    margin-left: 14px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    
+    color: gray
+    
+}
+
+.search{
+    border: 3px solid #2EAB8E;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 24px;
+    background-color: #2EAB8E;
+}
+
+ .under-input{
+    font-size: 10px;
+    position: relative;
+    right: 280px;
+    top: 24px;
+    color: grey;
+    list-style-type:none;
+    padding-left: 0px;
+    margin-left: -55px;
+}
+    
+li{
+    display: inline;
+    margin: 5px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid #A8A8A8;
+}
+
+.nav{
+    height: 44px;
+    width: auto;
+    background-color: #2EAB8E ;
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+    align-items:center;
+}
+
+.nav-text{
+    color: white;
+    margin-left: 150px;
+    padding-left: 0px;
+    height:44px;
+    display: flex;
+    align-items:center;
+    font-size: 18px;
+}
+
+.t1{
+    
+    height:44px;
+    display: flex;
+    align-items:center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.t1:hover{
+    background-color:  #0B696F;
+}
+
+.content{
+    height: 390px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background:url(banner.png);
+    background-size:cover; 
+}
+
+ .main{
+    height: 297px;
+    width: 382px;
+    background-color: white;
+    z-index: 100;
+    margin-left: 177px;
+    display: flex;
+    position: relative;
+    top:47px; 
+}
+
+.main-left{
+    display: initial;
+    background-color: #84ccc9;
+    font-size: 20px;
+    padding-left: 0px;
+    height: 297px;
+    width: 90px;
+    margin-top:0px; 
+    color: white;
+    justify-content:center;
+}
+
+.t2{
+    padding: 7px 11px;
+    border-bottom: 2px solid white;
+}
+
+.t21{
+    padding: 7px 15px;
+    border-bottom: 2px solid white;
+}
+
+.t21:hover{
+    background-color:  #3dbdb0;
+    color: #0a6678;
+}
+
+.t2:hover{
+    background-color:  #3dbdb0;
+    color: #0a6678;
+    
+} 
+
+.maintop{
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 260px;
+    border-bottom: 2px solid  #0a6678;
+    font-weight:bold;
+}
+
+.maintop1:hover{
+    color: #0a6678; 
+}
+
+.mainbottom1{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: gray;
+    font-size: 12px;
+}
+
+.mainbottom2{
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    width: 250px;
+}
+
+.mainbottom3{
+    display: flex;
+    flex-wrap:wrap;
+    width: 106px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: gray;
+    font-size: 12px;
+    height: 38px;
+}
+
+.mainbottom4{
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    width: 110px;
+    color: gray;
+}
+
+.mainbottom5{
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: gray;
+    font-size: 12px;
+}
+
+.mainbottom6{
+    display: flex;
+    flex-wrap:wrap;
+    width: 293px;
+    height: 160px;
+}
+
+.mainbottom7{
+    height: 25px;
+    width: 70px;
+    margin-left: 200px;
+    margin-top: 10px;
+    border-radius: 7px;
+    background-color: coral;
+    border: 0px;
+    color: white;
+    font-weight:bold;
+}
+
+.footer{
+    height: 84px;
+    background-color: #0F6F5C;
+    margin: -4px -8px -19px -8px;
+    display: flex;
+    
+}
+
+.footer ul{
+    margin:0 auto; 
+    font-size: 10px;
+    color:white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+    text-align: center;
+}
